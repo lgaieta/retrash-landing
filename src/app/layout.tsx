@@ -3,6 +3,7 @@ import './globals.css';
 import { ReactNode } from 'react';
 import { inter } from './font';
 import { Providers } from './providers';
+import Header from '@/components/Header';
 
 export const metadata: Metadata = {
   title: 'ReTrash',
@@ -13,7 +14,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang='es'>
       <body className={inter.className}>
-        <Providers>{children}</Providers>
+        <Providers>
+          <div className='flex flex-col w-full'>
+            <Header />
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );
