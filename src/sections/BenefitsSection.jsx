@@ -1,4 +1,5 @@
 import Inter from '@app/font';
+import Image from 'next/image';
 
 function BenefitsSection() {
   return (
@@ -14,8 +15,14 @@ function BenefitsSection() {
         </div>
       </div>
       <div className='flex justify-between  py-10'>
-        <div className='flex justify-between px-6'>
-          <img src='public/icon-recycle.png' alt='recycle icon' />
+        <div className='flex justify-between px-6 '>
+          <Image
+            src='/recycle-icon.png'
+            width={30}
+            height={30}
+            alt='Recycle icon'
+            className='w-1/4 h-1/4 my-2'
+          />
           <div className='px-6'>
             <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
               Reciclaje sin esfuerzo
@@ -26,8 +33,14 @@ function BenefitsSection() {
             </p>
           </div>
         </div>
-        <div className='flex justify-between px-6'>
-          <img src='public/clock-icon.png' alt='' />
+        <div className='flex justify-between px-6 '>
+          <Image
+            src='/clock-icon.png'
+            width={30}
+            height={30}
+            alt='Recycle icon'
+            className='w-1/4 h-1/4 my-2'
+          />
           <div className='px-6'>
             <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
               Ahorro de tiempo y energía
@@ -38,8 +51,14 @@ function BenefitsSection() {
             </p>
           </div>
         </div>
-        <div className='flex justify-between px-6'>
-          <img src='public/suit-icon.png' alt='' />
+        <div className='flex justify-between px-6 '>
+          <Image
+            src='/suit-icon.png'
+            width={30}
+            height={30}
+            alt='Recycle icon'
+            className='w-1/4 h-1/4 my-2'
+          />
           <div className='px-6'>
             <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
               Diseño elegante y adaptable
