@@ -21,7 +21,7 @@ function BenefitsSection() {
             width={30}
             height={30}
             alt='Recycle icon'
-            className='w-1/4 h-1/4 my-2'
+            className='w-1/4 h-1/4 my-2 max-sm:my-5'
           />
           <div className='px-6'>
             <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
@@ -39,7 +39,7 @@ function BenefitsSection() {
             width={30}
             height={30}
             alt='Recycle icon'
-            className='w-1/4 h-1/4 my-2'
+            className='w-1/4 h-1/4 my-2 max-sm:my-5'
           />
           <div className='px-6'>
             <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
@@ -57,7 +57,7 @@ function BenefitsSection() {
             width={30}
             height={30}
             alt='Recycle icon'
-            className='w-1/4 h-1/4 my-2'
+            className='w-1/4 h-1/4 my-2 max-sm:my-5'
           />
           <div className='px-6'>
             <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
