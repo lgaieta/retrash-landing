@@ -14,8 +14,8 @@ function BenefitsSection() {
           </h2>
         </div>
       </div>
-      <div className='flex justify-between  py-10'>
-        <div className='flex justify-between px-6 '>
+      <div className=' py-10 flex justify-between max-sm:flex-col max-sm:my-2'>
+        <div className='flex justify-between px-6 max-sm:my-3'>
           <Image
             src='/recycle-icon.png'
             width={30}
@@ -33,7 +33,7 @@ function BenefitsSection() {
             </p>
           </div>
         </div>
-        <div className='flex justify-between px-6 '>
+        <div className='flex justify-between px-6 max-sm:my-3'>
           <Image
             src='/clock-icon.png'
             width={30}
@@ -51,7 +51,7 @@ function BenefitsSection() {
             </p>
           </div>
         </div>
-        <div className='flex justify-between px-6 '>
+        <div className='flex justify-between px-6 max-sm:my-3'>
           <Image
             src='/suit-icon.png'
             width={30}
