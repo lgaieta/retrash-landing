@@ -3,7 +3,7 @@ import BenefitsSection from '@sections/BenefitsSection';
 
 export default function Home() {
   return (
-    <main className='flex flex-col w-full text-foreground'>
+    <main className='flex w-full flex-col text-foreground'>
       <HeroSection />
       <BenefitsSection />
     </main>

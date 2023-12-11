@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang='es'>
       <body className={inter.className}>
         <Providers>
-          <div className='flex flex-col w-full'>
+          <div className='flex w-full flex-col'>
             <Header />
             {children}
           </div>
