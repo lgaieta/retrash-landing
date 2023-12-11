@@ -1,4 +1,3 @@
-import Inter from '@app/font';
 import Image from 'next/image';
 
 function BenefitsSection() {
