@@ -9,7 +9,7 @@ function BenefitsSection() {
           <h2 className='text-2xl font-bold text-foreground'>Beneficios</h2>
         </div>
       </div>
-      <div className=' my-2 flex flex-col justify-between py-5 md:flex-row'>
+      <div className='flex flex-col justify-between pt-6 md:flex-row'>
         <div className='my-3 flex justify-between px-0'>
           <Image
             src='/recycle-icon.png'
