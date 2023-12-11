@@ -3,28 +3,24 @@ import Image from 'next/image';
 
 function BenefitsSection() {
   return (
-    <section className='p-6'>
-      <div className='flex justify-start items-center '>
-        <div className='px-3'>
-          <div className='w-10 bg-black p-px'></div>
-        </div>
+    <section className='max-w-sections mx-auto px-6 py-16'>
+      <div className='flex items-center justify-start gap-4'>
+        <div className='w-8 bg-black p-px' />
         <div>
-          <h2 className='text-[#161616] ${inter.className} text-4xl  font-bold'>
-            Beneficios
-          </h2>
+          <h2 className='text-2xl font-bold text-foreground'>Beneficios</h2>
         </div>
       </div>
-      <div className=' py-10 flex justify-between max-sm:flex-col max-sm:my-2'>
-        <div className='flex justify-between px-6 max-sm:my-3'>
+      <div className=' my-2 flex flex-col justify-between py-5 md:flex-row'>
+        <div className='my-3 flex justify-between px-0'>
           <Image
             src='/recycle-icon.png'
-            width={30}
-            height={30}
+            width={32}
+            height={32}
             alt='Recycle icon'
-            className='w-1/4 h-1/4 my-2 max-sm:my-5'
+            className='h-8 w-8'
           />
-          <div className='px-6'>
-            <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
+          <div className='px-4'>
+            <h3 className='pb-3 text-lg font-semibold'>
               Reciclaje sin esfuerzo
             </h3>
             <p className='text-foreground-500'>
@@ -33,16 +29,16 @@ function BenefitsSection() {
             </p>
           </div>
         </div>
-        <div className='flex justify-between px-6 max-sm:my-3'>
+        <div className='my-3 flex justify-between px-0'>
           <Image
             src='/clock-icon.png'
-            width={30}
-            height={30}
+            width={32}
+            height={32}
             alt='Recycle icon'
-            className='w-1/4 h-1/4 my-2 max-sm:my-5'
+            className='h-8 w-8'
           />
-          <div className='px-6'>
-            <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
+          <div className='px-4'>
+            <h3 className='pb-3 text-lg font-semibold'>
               Ahorro de tiempo y energía
             </h3>
             <p className='text-foreground-500'>
@@ -51,16 +47,16 @@ function BenefitsSection() {
             </p>
           </div>
         </div>
-        <div className='flex justify-between px-6 max-sm:my-3'>
+        <div className='my-3 flex justify-between px-0'>
           <Image
             src='/suit-icon.png'
-            width={30}
-            height={30}
+            width={32}
+            height={32}
             alt='Recycle icon'
-            className='w-1/4 h-1/4 my-2 max-sm:my-5'
+            className='h-8 w-8'
           />
-          <div className='px-6'>
-            <h3 className='color-[#161616] ${inter.className} text-xl font-semibold py-3'>
+          <div className='px-4'>
+            <h3 className='pb-3 text-lg font-semibold'>
               Diseño elegante y adaptable
             </h3>
             <p className='text-foreground-500'>

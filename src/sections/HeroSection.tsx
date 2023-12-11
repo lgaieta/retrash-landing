@@ -5,10 +5,10 @@ import productImage from '@public/product-image-futuristic.png';
 
 function HeroSection() {
   return (
-    <section className='flex flex-col gap-8 px-6 max-w-sm mx-auto min-[500px]:max-w-md md:flex-row sm:max-w-lg md:max-w-3xl lg:max-w-5xl lg:mt-8'>
-      <div className='flex flex-col sm:justify-between lg:justify-center sm:gap-6 gap-4 w-full'>
+    <section className='max-w-sections mx-auto flex flex-col gap-8 px-6 md:mt-4 md:flex-row lg:mt-8 '>
+      <div className='flex w-full flex-col gap-4 sm:justify-between sm:gap-6 lg:justify-center'>
         <h1
-          className={`${kanit.className} text-4xl sm:text-5xl font-semibold text-foreground`}
+          className={`${kanit.className} text-4xl font-semibold text-foreground sm:text-5xl`}
         >
           El futuro del reciclaje en tus manos
         </h1>
@@ -21,8 +21,8 @@ function HeroSection() {
           Comprar ahora
         </Button>
       </div>
-      <div className='flex items-center justify-center w-full'>
-        <div className='relative w-full aspect-square lg:max-w-[350px]'>
+      <div className='flex w-full items-center justify-center'>
+        <div className='relative aspect-square w-full lg:max-w-[350px]'>
           <Image
             src={productImage}
             alt='Imagen sobre el tacho de basura reciclable llamado ReTrash'

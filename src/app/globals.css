@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.max-w-sections {
+  @apply max-w-sm min-[500px]:max-w-md sm:max-w-lg md:max-w-3xl lg:max-w-5xl;
+}
