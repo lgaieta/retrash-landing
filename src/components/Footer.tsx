@@ -40,7 +40,7 @@ function Footer() {
             />
           </div>
         </div>
-        <div className='flex flex-col mx-5 gap-y-4 '>
+        <div className='flex flex-col mx-5 gap-y-3 '>
           <h3 className='text-xl text-white font-semibold'>Contactos</h3>
           <a href='retrash@gmail.com' className='text-foreground-200'>
             retrash@gmail.com
