@@ -6,8 +6,8 @@ import cogIconSrc from '@public/cog-icon.svg';
 
 function HowWorksSection() {
   return (
-    <section className='max-w-sections mx-auto flex w-full flex-col gap-16 px-6 py-20'>
-      <h2 className='text-center text-3xl font-bold'>
+    <section className='max-w-sections mx-auto flex w-full flex-col gap-16 px-6 py-20 lg:py-32'>
+      <h2 className='text-center text-3xl font-bold md:text-4xl'>
         ¿Cómo funciona la separación automática?
       </h2>
       <ul className='relative flex flex-col items-center gap-16'>
