@@ -4,6 +4,7 @@ import { ReactNode } from 'react';
 import { inter } from './font';
 import { Providers } from './providers';
 import Header from '@/components/Header';
+import Footer from '@components/Footer';
 
 export const metadata: Metadata = {
   title: 'ReTrash',
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <div className='flex w-full flex-col'>
             <Header />
             {children}
+            <Footer/>
           </div>
         </Providers>
       </body>
