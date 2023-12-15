@@ -10,7 +10,7 @@ type HowWorksStepProps = {
 
 function HowWorksStep(props: HowWorksStepProps) {
   return (
-    <li className='z-10 flex flex-col items-center gap-16'>
+    <li className='z-10 flex max-w-lg flex-col items-center gap-16'>
       <div className='flex h-12 w-12 items-center justify-center rounded-full bg-foreground-800'>
         <Image src={props.iconSrc} alt={props.title + ' icon'} />
       </div>
