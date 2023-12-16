@@ -5,7 +5,7 @@ import productImage from '@public/product-image-futuristic.png';
 
 function HeroSection() {
   return (
-    <section className='max-w-sections mx-auto flex flex-col gap-8 px-6 pb-20 pt-4 md:mt-4 md:flex-row lg:mt-8 lg:min-h-[80vh]'>
+    <section className='max-w-sections mx-auto flex flex-col gap-8 px-6 pb-20 pt-4 md:mt-4 md:flex-row lg:mt-8 lg:max-h-[400px] lg:min-h-[550px]'>
       <div className='flex w-full flex-col gap-4 sm:justify-between sm:gap-6 lg:justify-center'>
         <h1
           className={`${kanit.className} text-4xl font-semibold text-foreground sm:text-5xl`}
