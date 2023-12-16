@@ -1,3 +1,8 @@
+import Facebook from '@public/Facebook.svg';
+import X from '@public/X.svg';
+import Linkdin from '@public/Linkdin.svg';
+import Instagram from '@public/Instagram.svg';
+
 import ReTrashLogoWhite from './ReTrashLogo-White';
 import Image from 'next/image';
 import facebookSrc from '@public/facebook.svg';
