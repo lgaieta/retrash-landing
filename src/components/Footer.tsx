@@ -1,3 +1,8 @@
+import Facebook from '@public/Facebook.svg';
+import X from '@public/X.svg';
+import Linkdin from '@public/Linkdin.svg';
+import Instagram from '@public/Instagram.svg';
+
 import ReTrashLogoWhite from './ReTrashLogo-White';
 import Image from 'next/image';
 
@@ -11,28 +16,28 @@ function Footer() {
           </div>
           <div className='flex justify-between my-10'>
             <Image
-              src='/public/Facebook.svg'
+              src={Facebook}
               width={32}
               height={32}
               alt='Facebook icon'
               className='h-8 w-8'
             />
             <Image
-              src='/public/X.svg'
+              src={X}
               width={32}
               height={32}
               alt='X icon'
               className='h-8 w-8'
             />
             <Image
-              src='/public/Instagram.svg'
+              src={Instagram}
               width={32}
               height={32}
               alt='Instagram icon'
               className='h-8 w-8'
             />
             <Image
-              src='/public/Linkdin.svxg'
+              src={Linkdin}
               width={32}
               height={32}
               alt='Linkdin                                                                                                                                                                                                                       icon'
