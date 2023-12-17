@@ -15,9 +15,9 @@ function HowWorksSection() {
           className='absolute h-full w-1'
           style={{
             background:
-              'repeating-linear-gradient(to bottom, transparent, transparent 10px, #161616 10px, #161616 20px);',
+              'repeating-linear-gradient(to bottom, transparent, transparent 10px, #161616 10px, #161616 20px)',
           }}
-        ></div>
+        />
         <HowWorksStep
           title='Captura de datos con sensores'
           description='Sensores avanzados recopilan datos detallados sobre cada residuo, incluyendo forma, tamaño y composición.'
