@@ -10,7 +10,7 @@ function BenefitsSection() {
           </h2>
         </div>
         <div className='flex flex-col justify-between pt-6 md:flex-row'>
-          <div className='my-3 flex w-full justify-between px-0'>
+          <div className='my-3 flex w-ffull justify-between px-0'>
             <Image
               src='/recycle-icon.png'
               width={32}
